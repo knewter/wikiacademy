@@ -34,6 +34,16 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :test do
+  gem 'ruby-debug19'
+  gem 'minitest'
+  gem 'minitest-rails'
+  gem 'mocha'
+  gem 'factory_girl'
+  gem 'capybara'
+  gem 'capybara_minitest_spec'
+  gem 'database_cleaner'
+  gem 'delorean'
+
   # Pretty printed test output
   gem 'turn', '~> 0.8.3', :require => false
 end
